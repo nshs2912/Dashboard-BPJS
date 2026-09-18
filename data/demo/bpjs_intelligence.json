@@ -1,0 +1,210 @@
+{
+  "analysis_id": "SIHIS-JKN-DEMO-20260918-0001",
+  "generated_at": "2026-09-18T13:00:00+07:00",
+  "summary": {
+    "participants": 284316178,
+    "outpatient_visits": 1842300,
+    "outpatient_delta": "+8.4%",
+    "inpatient_episodes": 186420,
+    "inpatient_delta": "+5.1%",
+    "claims_trillion": 12.84,
+    "claims_delta": "+6.7%",
+    "alerts": 7,
+    "fktp": 23758
+  },
+  "top_outpatient": [
+    {
+      "Rank": 1,
+      "Penyakit": "Hipertensi",
+      "Kunjungan": 182400,
+      "Trend": "+7.2%"
+    },
+    {
+      "Rank": 2,
+      "Penyakit": "ISPA",
+      "Kunjungan": 164800,
+      "Trend": "+4.1%"
+    },
+    {
+      "Rank": 3,
+      "Penyakit": "Diabetes Melitus",
+      "Kunjungan": 132500,
+      "Trend": "+8.8%"
+    },
+    {
+      "Rank": 4,
+      "Penyakit": "Dispepsia",
+      "Kunjungan": 118700,
+      "Trend": "+2.4%"
+    },
+    {
+      "Rank": 5,
+      "Penyakit": "Dermatitis",
+      "Kunjungan": 93400,
+      "Trend": "+1.8%"
+    }
+  ],
+  "top_inpatient": [
+    {
+      "Rank": 1,
+      "Penyakit": "Pneumonia",
+      "Episode": 18420,
+      "Trend": "+9.4%",
+      "Death": 420
+    },
+    {
+      "Rank": 2,
+      "Penyakit": "Stroke",
+      "Episode": 16210,
+      "Trend": "+4.7%",
+      "Death": 710
+    },
+    {
+      "Rank": 3,
+      "Penyakit": "Diabetes dengan komplikasi",
+      "Episode": 14980,
+      "Trend": "+8.1%",
+      "Death": 530
+    },
+    {
+      "Rank": 4,
+      "Penyakit": "Dengue",
+      "Episode": 12320,
+      "Trend": "+15.2%",
+      "Death": 180
+    },
+    {
+      "Rank": 5,
+      "Penyakit": "Penyakit Jantung Iskemik",
+      "Episode": 11760,
+      "Trend": "+3.2%",
+      "Death": 650
+    }
+  ],
+  "regional": [
+    {
+      "Provinsi": "DI Yogyakarta",
+      "Kab/Kota": "Sleman",
+      "Kecamatan": "Mlati",
+      "Rawat Jalan": 42800,
+      "Rawat Inap": 4820,
+      "Trend": "+11.3%"
+    },
+    {
+      "Provinsi": "Jawa Barat",
+      "Kab/Kota": "Bandung",
+      "Kecamatan": "Cimahi",
+      "Rawat Jalan": 68400,
+      "Rawat Inap": 6910,
+      "Trend": "+8.2%"
+    },
+    {
+      "Provinsi": "Jawa Timur",
+      "Kab/Kota": "Surabaya",
+      "Kecamatan": "Wonokromo",
+      "Rawat Jalan": 72300,
+      "Rawat Inap": 7340,
+      "Trend": "+6.1%"
+    }
+  ],
+  "fktp": [
+    {
+      "FKTP": "FKTP A",
+      "Peserta": 18400,
+      "Rawat Jalan": 12820,
+      "Rujukan": 920,
+      "Referral Rate": "7.2%",
+      "Preventive Signal": "DM/HT burden tinggi"
+    },
+    {
+      "FKTP": "FKTP B",
+      "Peserta": 15600,
+      "Rawat Jalan": 10420,
+      "Rujukan": 510,
+      "Referral Rate": "4.9%",
+      "Preventive Signal": "Dengue meningkat"
+    },
+    {
+      "FKTP": "FKTP C",
+      "Peserta": 12100,
+      "Rawat Jalan": 9820,
+      "Rujukan": 430,
+      "Referral Rate": "4.4%",
+      "Preventive Signal": "Prolanis follow-up"
+    }
+  ],
+  "preventive_signals": [
+    "Identifikasi FKTP dengan beban hipertensi/diabetes tinggi untuk penguatan continuity of care.",
+    "Pantau penyakit yang meningkat di rawat jalan sebelum terjadi peningkatan rawat inap pada wilayah yang sama.",
+    "Gunakan referral dan outcome sebagai indikator mutu; jangan menilai FKTP hanya dari angka rujukan."
+  ],
+  "cost_quality": [
+    {
+      "Domain": "Pneumonia",
+      "Episodes": 18420,
+      "Cost_Billion": 920.5,
+      "LOS": "5.4 hari",
+      "Quality_Signal": "Monitor mortality & LOS"
+    },
+    {
+      "Domain": "Stroke",
+      "Episodes": 16210,
+      "Cost_Billion": 1180.2,
+      "LOS": "7.1 hari",
+      "Quality_Signal": "Continuity & secondary prevention"
+    },
+    {
+      "Domain": "Dengue",
+      "Episodes": 12320,
+      "Cost_Billion": 410.7,
+      "LOS": "4.2 hari",
+      "Quality_Signal": "EWS regional"
+    }
+  ],
+  "alerts": [
+    "Epidemiological signal: Dengue meningkat pada beberapa wilayah dan perlu korelasi dengan SI-HIS surveillance.",
+    "JKN impact signal: peningkatan rawat inap pneumonia dan diabetes komplikasi perlu ditinjau bersama tren epidemiologi dan utilisasi."
+  ],
+  "key_findings": [
+    "Rawat jalan menunjukkan beban penyakit utama pada populasi JKN.",
+    "Rawat inap menunjukkan penyakit dengan utilisasi lebih berat dan dampak pembiayaan lebih besar.",
+    "Korelasi epidemiologi, utilisasi, outcome, dan biaya dapat digunakan untuk merancang penguatan preventive care."
+  ],
+  "provenance": {
+    "source": "DEMO ONLY",
+    "engine_version": "SI-HIS Intelligence API contract v1",
+    "data_version": "demo-2026-09-18"
+  },
+  "analysis_dataset": [
+    {
+      "Episode_ID": "DEMO-001",
+      "Tanggal": "2026-09-10",
+      "Provinsi": "DI Yogyakarta",
+      "Kabupaten": "Sleman",
+      "Kecamatan": "Mlati",
+      "FKTP": "FKTP A",
+      "Pelayanan": "Rawat Jalan",
+      "Diagnosis": "Hipertensi"
+    },
+    {
+      "Episode_ID": "DEMO-002",
+      "Tanggal": "2026-09-11",
+      "Provinsi": "DI Yogyakarta",
+      "Kabupaten": "Sleman",
+      "Kecamatan": "Mlati",
+      "FKTP": "FKTP B",
+      "Pelayanan": "Rawat Inap",
+      "Diagnosis": "Dengue"
+    },
+    {
+      "Episode_ID": "DEMO-003",
+      "Tanggal": "2026-09-12",
+      "Provinsi": "Jawa Barat",
+      "Kabupaten": "Bandung",
+      "Kecamatan": "Cimahi",
+      "FKTP": "FKTP C",
+      "Pelayanan": "Rawat Jalan",
+      "Diagnosis": "Diabetes Melitus"
+    }
+  ]
+}
